@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 92px;
+    padding: 16px 120px;
+    justify-content: space-between;
+}
+
+.nav-container img {
+    max-width: 139px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.btn {
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #469165;
+    font-weight: 400;
+}
