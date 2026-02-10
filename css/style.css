@@ -88,7 +88,7 @@
 }
 
 .card-panel{
-    height: 448px;
+    height: 500px;
     background-color: #FBFBFB;
 }
 
@@ -132,8 +132,9 @@
     border-radius: 50%;
     height: 60px;
     width: 60px;
-    text-align: center;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-shape-circle img {
@@ -160,4 +161,20 @@
     margin: 0px 24px;
     line-height: 20px;
     margin-top: 16px;
+}
+
+.knowledge-section {
+    height: 840px;
+    background-color: #FFFFFF;
+    padding: 120px;
+}
+
+.knowledge-content {
+    display: flex;
+    justify-content: center;
+}
+
+.knowledge-details {
+    padding: 102px 60px;
+
 }
