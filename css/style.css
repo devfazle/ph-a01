@@ -88,7 +88,7 @@
 }
 
 .card-panel{
-    height: 500px;
+    height: 448px;
     background-color: #FBFBFB;
 }
 
@@ -139,4 +139,25 @@
 .card-shape-circle img {
     height: 32px;
     width: 32px;
+}
+
+.card-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 69px;
+    margin-bottom: 16px;
+}
+
+.card h3 {
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.card p {
+    color: #627382;
+    margin: 0px 24px;
+    line-height: 20px;
+    margin-top: 16px;
 }
