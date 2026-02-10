@@ -207,3 +207,40 @@
     align-items: center;
     gap: 6px;
 }
+
+.early-section {
+    height: 507px;
+}
+
+.early-content {
+    height: 385px;
+    width: 85%;
+    border-radius: 12px;
+    background-color: #F7F6F2;
+    margin: 0px 120px 120px 120px;
+    text-align: center;
+}
+
+.early-content h1 {
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.early-content p {
+    color: #627382;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+#ea-p1 {
+    line-height: 24px;
+}
+
+.early-content button {
+    margin-top: 24px;
+}
+
+#ea-p2 {
+    line-height: 20px;
+}
