@@ -176,5 +176,34 @@
 
 .knowledge-details {
     padding: 102px 60px;
+}
 
+#knowledge-details-p-1 {
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.knowledge-details h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+#knowledge-details-p-2 {
+    color: #627382;
+    margin-top: 16px;
+}
+
+.knowledge-check-points {
+    margin-top: 40px;
+}
+
+.knowledge-check-p {
+    margin-bottom: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
