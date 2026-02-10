@@ -50,12 +50,36 @@
     padding: 154px 321px;
 }
 
+.bg-ea {
+    background-color: #FFFFFF;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+
 .early-access p {
     font-size: 16px;
     color: #469165;
 }
 
+.banner-heading {
+    margin: 16px 0px;
+}
+
 .banner h1 {
     font-size: 72px;
     font-weight: bold;
+}
+
+.banner .banner-heading-1 {
+    color: #FFFFFF;
+}
+
+.banner .banner-heading-2 {
+    color: #30B868;
+}
+
+.banner-paragraph {
+    color: #FFFFFF;
+    margin-bottom: 32px;
 }
