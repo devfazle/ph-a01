@@ -40,13 +40,30 @@
     gap: 8px;
     align-items: center;
     justify-content: center;
-    height: 48px;
+    height: 52px;
     cursor: pointer;
     font-size: 16px;
 }
 
 .btn:hover {
     background-color: #3e7957;
+}
+
+.btn-2 {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.btn-2:hover {
+    background-color: transparent;
+    border: 2px solid #3e7957;
+}
+
+.banner-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
 
 .btn img {
@@ -105,8 +122,9 @@
 }
 
 .card-panel{
-    height: 500px;
+    height: 448px;
     background-color: #FBFBFB;
+    overflow: hidden;
 }
 
 .card {
@@ -116,6 +134,7 @@
     background-color: #FFFFFF;
     border-radius: 8px;
     text-align: center;
+    z-index: 1;
 }
 
 .card-panel-head {
@@ -291,6 +310,7 @@
     border-radius: 50%;
     padding: 2px;
     margin-right: 16px;
+    cursor: pointer;
 }
 
 .footer-bottom {
