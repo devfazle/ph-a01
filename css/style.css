@@ -14,7 +14,7 @@
     align-items: center;
     background-color: #FFFFFF;
     height: 92px;
-    max-width: 1600px;
+    /* max-width: 1600px; */
     padding: 16px 120px;
     justify-content: space-between;
 }
@@ -42,6 +42,7 @@
     background: url("../assets/hero-bg.png");
     height: 674px;
     background-repeat: no-repeat;
+    background-size: cover;
     /* margin: 0px auto; */
 }
 
@@ -82,4 +83,60 @@
 .banner-paragraph {
     color: #FFFFFF;
     margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.card-panel{
+    height: 500px;
+    background-color: #FBFBFB;
+}
+
+.card {
+    width: 322px;
+    height: 300px;
+    box-shadow: 0 6px 50px 0 #00000011;;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card-panel-head {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.card-panel-head h1 {
+    color: #001931;
+    font-size: 48px;
+}
+
+.card-panel-head p {
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+.card-panel-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 44px;
+}
+
+.card-shape-circle {
+    background-color: #F95555;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    align-content: center;
+}
+
+.card-shape-circle img {
+    height: 32px;
+    width: 32px;
 }
