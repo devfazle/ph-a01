@@ -38,6 +38,12 @@
     font-weight: 400;
 }
 
+.btn img {
+    height: 20px;
+    width: 20px;
+}
+
+
 .banner {
     background: url("../assets/hero-bg.png");
     height: 674px;
@@ -244,3 +250,32 @@
 #ea-p2 {
     line-height: 20px;
 }
+
+.footer-content {
+    background-color: #001931;
+    height: 348px;
+    padding: 120px 120px 0px 120px;
+}
+
+.footer-mid {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links {
+    color: #FFFFFF;
+    margin-right: 100px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.footer-bottom {
+    height: 50px;
+    text-align: center;
+    padding-top: 24px;
+    color: #FAFAFA;
+    margin-top: 80px;
+}
+
