@@ -14,6 +14,7 @@
     align-items: center;
     background-color: #FFFFFF;
     height: 92px;
+    max-width: 1600px;
     padding: 16px 120px;
     justify-content: space-between;
 }
@@ -35,4 +36,26 @@
     color: #FFFFFF;
     background-color: #469165;
     font-weight: 400;
+}
+
+.banner {
+    background: url("../assets/hero-bg.png");
+    height: 674px;
+    background-repeat: no-repeat;
+    /* margin: 0px auto; */
+}
+
+.banner-content {
+    text-align: center;
+    padding: 154px 321px;
+}
+
+.early-access p {
+    font-size: 16px;
+    color: #469165;
+}
+
+.banner h1 {
+    font-size: 72px;
+    font-weight: bold;
 }
